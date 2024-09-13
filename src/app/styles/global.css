@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Tele2 TextSans Web SHORT Regular";
+    src: url("https://db.onlinewebfonts.com/t/eaede26ebfc025d4b8715790660fbde9.eot");
+    src: url("https://db.onlinewebfonts.com/t/eaede26ebfc025d4b8715790660fbde9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/eaede26ebfc025d4b8715790660fbde9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/eaede26ebfc025d4b8715790660fbde9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/eaede26ebfc025d4b8715790660fbde9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/eaede26ebfc025d4b8715790660fbde9.svg#Tele2 TextSans Web SHORT Regular")format("svg");
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+  
+:root {
+    --bg-color: #fff;
+    --foreground-color: rgba(243, 245, 246, 1);
+    --accent-color: rgba(31, 34, 41, 1);
+    --text-color: rgba(124, 135, 146, 1);
+  
+    --screen-xs: 520px;
+    --screen-sm: 768px;
+    --screen-md: 1024px;
+    --screen-lg: 1280px;
+    --screen-xl: 1640px;
+    
+    --container: 1440px;
+    
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-7: 28px;
+    --space-8: 32px;
+  
+    --blue: rgba(63, 203, 255, 1);
+  
+    --radii-full: 9999px;
+}
+  
+ body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Tele2 TextSans Web SHORT Regular";
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.container {
+    max-width: var(--container);
+}

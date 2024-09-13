@@ -1,0 +1,51 @@
+.box {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+    animation: bell 1s 1s both infinite;
+}
+  
+.notification {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+  
+    color: white;
+    background-color: var(--blue);
+    border-radius: var(--radii-full);
+}
+  
+.icon {
+    color: white;
+    font-size: 20px;
+}
+  
+ @keyframes bell {
+    0% {
+      transform: rotate(0);
+    }
+  
+    10% {
+      transform: rotate(30deg);
+    }
+  
+    20% {
+      transform: rotate(0);
+    }
+  
+    80% {
+      transform: rotate(0);
+    }
+  
+    90% {
+      transform: rotate(-30deg);
+    }
+  
+    100% {
+      transform: rotate(0);
+    }
+}
